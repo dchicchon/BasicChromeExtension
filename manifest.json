@@ -1,0 +1,23 @@
+{
+
+
+
+    "name": "New tab extension",
+    "description": "Adding a photo to the background from my filesystem",
+    "version": "1.0",
+    "manifest_version": 3,
+
+
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+
+    "action": {
+        "default_popup": "popup.html"
+    },
+
+
+    "permissions": [
+        "storage"
+    ]
+}
